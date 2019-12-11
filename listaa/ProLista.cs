@@ -12,6 +12,7 @@ namespace listaa
 {
     public partial class ProLista : Form
     {
+        private List<Clases.producto> listaproducto = new List<Clases.producto>();
         public ProLista()
         {
             InitializeComponent();
